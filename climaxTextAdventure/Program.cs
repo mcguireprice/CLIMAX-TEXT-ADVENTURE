@@ -21,7 +21,7 @@ namespace climaxTextAdventure
                 Console.WriteLine("---------------------------------------------------------------------------");
                 Console.WriteLine("*Do you confront him or go to your friend Lou? (Type: David or Lou)");
                 string choice11 = Console.ReadLine();
-                if (choice11 == "David") ;
+                if (choice11 == "David") 
                 {
 
                 }
@@ -32,7 +32,19 @@ namespace climaxTextAdventure
             }
             else
             {
-                Console.WriteLine("*YOU WALK OVER TO DADDY THE DJ ON STAGE*");
+                Console.WriteLine("---------------------------------------------------------------------------");
+                Console.WriteLine("*YOU WALK OVER TO DADDY THE DJ ON STAGE WHO IS HANGING OUT WITH THE CHOREOGRAPHER EMMANUELLE AND TITO (EMMANUELLE'S CHILD)*");
+                Console.WriteLine("---------------------------------------------------------------------------");
+                Console.WriteLine("Do you ask Tito to go dance with you or talk to Emmanuelle? (Type: Dance or Talk)");
+                string choice2 = Console.ReadLine();
+                if (choice2 == "Dance")
+                {
+
+                }
+                else
+                {
+
+                }
             }
         }
     }
