@@ -6,6 +6,10 @@ namespace climaxTextAdventure
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What is your name?:");
+            string name = Console.ReadLine();
+            Console.WriteLine("---------------------------------------------------------------------------");
+            Console.WriteLine("---------------------------------------------------------------------------");
             Console.WriteLine("SETTING- An old school that is now used by the dance crew. The gym is where they perform and have the party but the old classrooms have been turned into individual dorm rooms.");
             Console.WriteLine("*DANCE MUSIC PLAYS IN THE BACKGROUND*");
             Console.WriteLine("*YOU WALK OUT ON THE DANCE FLOOR WITH THE REST OF THE DANCE CREW*");
@@ -39,7 +43,10 @@ namespace climaxTextAdventure
                 string choice2 = Console.ReadLine();
                 if (choice2 == "Dance")
                 {
-
+                    Console.WriteLine("*YOU WALK UP TO TITO AND HOLD OUT YOUR HAND*");
+                    Console.WriteLine("YOU: Hey Tito, wanna dance?");
+                    Console.WriteLine("*TITO GRABS YOUR HAND AND YOU START TO WALK TO THE MIDDLE OF THE DANCE FLOOR*");
+                    Console.WriteLine("EMMANUELLE: Tito! Remember what I told you, you can't have any of the punch, it has alcohol and alcohol is not for children! And" + " " + name + " " + "get some punch! It took forever for me to make!");
                 }
                 else
                 {
