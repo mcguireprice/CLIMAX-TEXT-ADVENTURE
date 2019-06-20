@@ -15,7 +15,7 @@ namespace climaxTextAdventure
             Console.WriteLine("*YOU WALK OUT ON THE DANCE FLOOR WITH THE REST OF THE DANCE CREW*");
             Console.WriteLine("*YOU PERFORM THE CHOREOGRAPHED DANCE*");
             Console.WriteLine("*SONG ENDS*");
-            Console.WriteLine("EMMANUELLE: Good job everyone! I am so happy to see all of your hard work starting to pay off! As you know we are heading to America tommorow and I couldn't be more proud to show the American audiences what French dancing is really about! Now I want you to all rest and have a good time before we head off tomorrow, I've made alcoholic punch and set out food. Also, Daddy will be the DJ for tonight so if you want some good music make sure to kiss up to him. HAVE FUN!");
+            Console.WriteLine("EMMANUELLE (The Choreographer): Good job everyone! I am so happy to see all of your hard work starting to pay off! As you know we are heading to America tommorow and I couldn't be more proud to show the American audiences what French dancing is really about! Now I want you to all rest and have a good time before we head off tomorrow, I've made alcoholic punch and set out food. Also, our fellow dancer Daddy will be the DJ for tonight so if you want some good music make sure to kiss up to him. HAVE FUN!");
 
             Console.WriteLine("---------------------------------------------------------------------------");
             Console.WriteLine("Do you want to go hangout with your boyfriend David or go and hangout with Daddy the DJ? (TYPE: David or Daddy)");
@@ -48,12 +48,31 @@ namespace climaxTextAdventure
                         Console.WriteLine("*HE FIXES HIMSELF A CUP AND DRINKS IT IN ONE GULP, HE THEN MAKES ANOTHER CUP AND OFFERS IT TO YOU*");
 
                         Console.WriteLine("---------------------------------------------------------------------------");
-                        Console.WriteLine("Do you take the cup or decline?:");
+                        Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
                         string choice14 = Console.ReadLine();
                     }
                     else//Go talk to Emmanuelle
                     {
+                        Console.WriteLine("YOU: No thank you.");
+                        Console.WriteLine("*YOU WALK OVER TO DADDY THE DJ ON STAGE WHO IS HANGING OUT WITH THE CHOREOGRAPHER EMMANUELLE AND TITO (EMMANUELLE'S CHILD)*");
+                        Console.WriteLine("EMMANUELLE: There is the shining star! You know I never have to ask you to bring your all, you never disappoint me on the dance floor!");
+                        Console.WriteLine("YOU: Please keep praising me, I need the good vibes");
+                        Console.WriteLine("EMMANUELLE: What's wrong?");
+                        Console.WriteLine("YOU: I don't want to talk about it.");
+                        Console.WriteLine("EMMANUELLE: I know what will cheer you up, go get some of my punch! It is my mothers recipe and it always seemed to cheer her up to the point she couldn't walk!");
 
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine("Do you go get some punch or stay with Daddy and Emmanuelle? (Type Punch or Stay)");
+                        string choice15 = Console.ReadLine();
+
+                        if (choice15 == "Punch" || choice15 == "punch")
+                        {
+
+                        }
+                        else
+                        {
+
+                        }
                     }
                 }
                 else // Talk to Lou
@@ -112,7 +131,7 @@ namespace climaxTextAdventure
                 }
                 else // Talk to Emmanuelle and Daddy
                 {
-                    Console.WriteLine("*You walk up to Emmanuelle and hug her from behind*");
+                    Console.WriteLine("*YOU WALK UP TO EMMANUELLE AND HUG HER FROM BEHIND*");
                     Console.WriteLine("YOU: How was it really?");
                     Console.WriteLine("EMMANUELLE: AMAZING! I really couldn't be more proud.");
                     Console.WriteLine("YOU: I am honestly still so nervous.");
@@ -122,13 +141,35 @@ namespace climaxTextAdventure
                     Console.WriteLine("Do you go get some punch or stay with Daddy and Emmanuelle? (Type Punch or Stay)");
                     string choice22 = Console.ReadLine();
 
-                    if (choice22 == "Punch" || choice22 == "punch")
+                    if (choice22 == "Punch" || choice22 == "punch")//Go to the Punch
                     {
+                        Console.WriteLine("YOU: Ok! Ok! I'll go and get some of your stupid punch.");
+                        Console.WriteLine("DADDY: It is delicious!");
+                        Console.WriteLine("*YOU WALK OVER TO THE PUNCH AND DAVID IS STANDING THERE*");
+                        Console.WriteLine("DAVID: Hey babe! How are you?");
+                        Console.WriteLine("YOU: Trying to have fun. I am honestly just so nervous about America.");
+                        Console.WriteLine("*DAVID TAKES A CUP OF THE PUCNCH AND DOWNS IT FAST, HE THEN POURS ANOTHER CUP AND OFFERS IT TO YOU");
+                        Console.WriteLine("DAVID: Here, this will loosen you up a bit!");
 
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                        string choice14 = Console.ReadLine();
                     }
-                    else
+                    else//Decline the punch
                     {
+                        Console.WriteLine("YOU: No thank you. I don't want anything to drink right now.");
+                        Console.WriteLine("DADDY: Well I want some, go and get me some before I die of thirst.");
+                        Console.WriteLine("YOU: Fine, but only for you!");
+                        Console.WriteLine("DADDY: Thank you!");
+                        Console.WriteLine("*YOU WALK OVER TO THE DRINK STATION AND DAVID IS STANDING GETTING HIMSELF A CUP*");
+                        Console.WriteLine("DAVID: Hey babe! How are you?");
+                        Console.WriteLine("YOU: Trying to have fun. I am honestly just so nervous about America.");
+                        Console.WriteLine("*DAVID TAKES A CUP OF THE PUCNCH AND DOWNS IT FAST, HE THEN POURS ANOTHER CUP AND OFFERS IT TO YOU");
+                        Console.WriteLine("DAVID: Here, this will loosen you up a bit!");
 
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                        string choice14 = Console.ReadLine();
                     }
                 }
             }
