@@ -201,7 +201,7 @@ namespace climaxTextAdventure
                         Console.WriteLine("*YOU WALK OVER TO THE DRINK STATION AND DAVID IS STANDING GETTING HIMSELF A CUP*");
                         Console.WriteLine("DAVID: Hey babe! How are you?");
                         Console.WriteLine("YOU: Trying to have fun. I am honestly just so nervous about America.");
-                        Console.WriteLine("*DAVID TAKES A CUP OF THE PUCNCH AND DOWNS IT FAST, HE THEN POURS ANOTHER CUP AND OFFERS IT TO YOU");
+                        Console.WriteLine("*DAVID TAKES A CUP OF THE PUNCH AND DOWNS IT FAST, HE THEN POURS ANOTHER CUP AND OFFERS IT TO YOU*");
                         Console.WriteLine("DAVID: Here, this will loosen you up a bit!");
 
                         Console.WriteLine("---------------------------------------------------------------------------");
