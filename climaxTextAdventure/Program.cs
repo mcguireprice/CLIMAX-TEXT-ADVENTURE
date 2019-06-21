@@ -65,12 +65,33 @@ namespace climaxTextAdventure
                         Console.WriteLine("Do you go get some punch or stay with Daddy and Emmanuelle? (Type Punch or Stay)");
                         string choice15 = Console.ReadLine();
 
-                        if (choice15 == "Punch" || choice15 == "punch")
+                        if (choice15 == "Punch" || choice15 == "punch")//get some punch
                         {
+                            Console.WriteLine("YOU: Fine, but I expect this punch to be the best drink in my life!");
+                            Console.WriteLine("*YOU WALK OVER TO THE PUNCH AND DAVID IS STANDING THERE DRINKING SOME");
+                            Console.WriteLine("YOU: Seems you got bored flirting with one of those other girls.");
+                            Console.WriteLine("DAVID: What are you talking about? Are you talking LEA? We were just talking I swear! There is no other girl but you!");
+                            Console.WriteLine("*HE FIXES HIMSELF A CUP AND DRINKS IT IN ONE GULP, HE THEN MAKES ANOTHER CUP AND OFFERS IT TO YOU*");
+
+                            Console.WriteLine("---------------------------------------------------------------------------");
+                            Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                            string choice14 = Console.ReadLine();
 
                         }
-                        else
+                        else//stay with Emmanuelle
                         {
+                            Console.WriteLine("YOU: I don't think a drink is going to lift my spirits.");
+                            Console.WriteLine("DADDY: Then do it for me! I need my spirits lifted!");
+                            Console.WriteLine("YOU: Fine! Only for you!");
+                            Console.WriteLine("DADDY: That's my girl!");
+                            Console.WriteLine("*YOU WALK OVER TO THE PUNCH AND DAVID IS THERE DRINKING SOME");
+                            Console.WriteLine("YOU: Seems you got bored flirting with one of those other girls.");
+                            Console.WriteLine("DAVID: What are you talking about? Are you talking LEA? We were just talking I swear! There is no other girl but you!");
+                            Console.WriteLine("*HE FIXES HIMSELF A CUP AND DRINKS IT IN ONE GULP, HE THEN MAKES ANOTHER CUP AND OFFERS IT TO YOU*");
+
+                            Console.WriteLine("---------------------------------------------------------------------------");
+                            Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                            string choice14 = Console.ReadLine();
 
                         }
                     }
@@ -84,16 +105,32 @@ namespace climaxTextAdventure
                     Console.WriteLine("LOU: No, I think that would make me feel worse.");
 
                     Console.WriteLine("---------------------------------------------------------------------------");
-                    Console.WriteLine("Do you try lift Lou's spirit or go hang out with David? (Type Lift Spirit or Hang With David");
+                    Console.WriteLine("Do you try lift Lou's spirit or go find David? (Type Lift Spirit or Find David");
                     string choice13 = Console.ReadLine();
 
                     if (choice13 == "Lift Spirit" || choice13 == "lift spirit")// lift Lou's spirit
                     {
+                        Console.WriteLine("YOU: You know what, I'll go get you some water. Maybe you are dehydrated.");
+                        Console.WriteLine("*YOU WALK OVER TO THE DRINKS AND DAVID IS STANDING THERE DRINKING SOME PUNCH");
+                        Console.WriteLine("YOU: Seems you got bored flirting with one of those other girls.");
+                        Console.WriteLine("DAVID: What are you talking about? Are you talking LEA? We were just talking I swear! There is no other girl but you!");
+                        Console.WriteLine("*HE FIXES HIMSELF A CUP AND DRINKS IT IN ONE GULP, HE THEN MAKES ANOTHER CUP AND OFFERS IT TO YOU*");
 
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                        string choice14 = Console.ReadLine();
                     }
-                    else //Go Hangout with David
+                    else //Go find  David
                     {
-                            
+                        Console.WriteLine("YOU: Ok, I'll give you some space");
+                        Console.WriteLine("*YOU GO AND SEE THAT DAVID IS BY THE PUNCH, YOU WALK UP TO HIM*");
+                        Console.WriteLine("YOU: If I see you flirting with another girl again, I will personally kill you.");
+                        Console.WriteLine("DAVID: I don't know what you are talking about, but ok.");
+                        Console.WriteLine("*HE LAUGHS AND FIXES HIMSELF A CUP OF PUNCH DRINKING IT IN ONE GULP, HE THEN MAKES ANOTHER CUP AND OFFERS IT TO YOU*");
+
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                        string choice14 = Console.ReadLine();
                     }
                 }
             }
