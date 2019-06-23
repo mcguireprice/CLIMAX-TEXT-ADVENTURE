@@ -167,12 +167,39 @@ namespace climaxTextAdventure
                         Console.WriteLine("IVANA: Only weed? I want something stronger! I only have a little bit left of my personal stash and I'm only using it for a special occasion!");
                         Console.WriteLine("*IVANA AND PSYCHE START WALKING TOWARDS THE HALLWAY WITH THE ROOMS*");
                         Console.WriteLine("*YOU DRAG TITO AND START DANCING WITH HIM ON THE DANCE FLOOR, WHEN OMAR BUMPS INTO YOU.");
-                        
+                        Console.WriteLine("*YOU SEE OMAR IS SWEATING LIKE CRAZY*");
+                        Console.WriteLine("YOU: Omar, you look a little hot, need me to get you some punch?");
+                        Console.WriteLine("OMAR: No thank you I don't drink alcochol, especially that punch. Who knows what all Emmanuelle put in it. But I wouldn't mind some water if you are going over there.");
+                        Console.WriteLine("YOU: Hey Tito, go back to your mom, I am going to head over and get something to drink.");
+                        Console.WriteLine("*YOU WATCH TITO GO OVER TO EMMANUELLE AND THEN WALK OVER TO THE DRINK STATION AND DAVID IS STANDING GETTING HIMSELF A CUP*");
+                        Console.WriteLine("DAVID: Hey babe! How are you?");
+                        Console.WriteLine("YOU: I'm pretty good, a little tired, who knew Tito was such a good dancer!");
+                        Console.WriteLine("*DAVID TAKES A CUP OF THE PUNCH AND DOWNS IT FAST, HE THEN POURS ANOTHER CUP AND OFFERS IT TO YOU*");
+                        Console.WriteLine("DAVID: Here, this will liven you up a bit!");
+
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                        string choice14 = Console.ReadLine();
+
                     }
                     else // Lie about the weed
                     {
                         Console.WriteLine("You: Sorry, I'm out. I'd check Elise, she is always on something. She'll hook you two up.");
                         Console.WriteLine("PSYCHE: Not me, after seeing my roommate drip stuff in her eyes for a high I knew I had to get out of there.");
+                        Console.WriteLine("IVANA: She is over exaggerating, don't listen to her.");
+                        Console.WriteLine("PSYCHE: I am not! You always do this.");
+                        Console.WriteLine("IVANA: Do what? Tell the truth?");
+                        Console.WriteLine("*AS THEY BICKER YOU TELL TITO TO GO BACK TO EMMANUELLE*");
+                        Console.WriteLine("*YOU WATCH TITO GO OVER TO EMMANUELLE AND THEN WALK OVER TO THE DRINK STATION AND DAVID IS STANDING GETTING HIMSELF A CUP*");
+                        Console.WriteLine("DAVID: Hey babe! How are you?");
+                        Console.WriteLine("YOU: I'm pretty good, just heard another one of the famous Ivana/Psyche fights.");
+                        Console.WriteLine("*DAVID TAKES A CUP OF THE PUNCH AND DOWNS IT FAST, HE THEN POURS ANOTHER CUP AND OFFERS IT TO YOU*");
+                        Console.WriteLine("DAVID: Here, this will make you forget that!");
+
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
+                        string choice14 = Console.ReadLine();
+
                     }
                 }
                 else // Talk to Emmanuelle and Daddy
