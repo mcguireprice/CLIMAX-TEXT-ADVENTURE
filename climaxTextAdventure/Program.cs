@@ -10,13 +10,18 @@ namespace climaxTextAdventure
             string name = Console.ReadLine();
             Console.WriteLine("---------------------------------------------------------------------------");
             Console.WriteLine("---------------------------------------------------------------------------");
-            Console.WriteLine("SETTING- An old school that is now used by the dance crew. The gym is where they perform and have the party but the old classrooms have been turned into individual dorm rooms.");
+            Console.WriteLine("SETTING- An old school that is now used by the dance crew. The gym is where they perform and have " +
+                              "the party but the old classrooms have been turned into individual dorm rooms.");
             Console.WriteLine("*DANCE MUSIC PLAYS IN THE BACKGROUND*");
             Console.WriteLine("*YOU WALK OUT ON THE DANCE FLOOR WITH THE REST OF THE DANCE CREW*");
             Console.WriteLine("*YOU PERFORM THE CHOREOGRAPHED DANCE*");
             Console.WriteLine("*SONG ENDS*");
-            Console.WriteLine("EMMANUELLE (The Choreographer): Good job everyone! I am so happy to see all of your hard work starting to pay off! As you know we are heading to America tommorow and I couldn't be more proud to show the American audiences what French dancing is really about! Now I want you to all rest and have a good time before we head off tomorrow, I've made alcoholic punch and set out food. Also, our fellow dancer Daddy will be the DJ for tonight so if you want some good music make sure to kiss up to him. HAVE FUN!");
-
+            Console.WriteLine("EMMANUELLE (The Choreographer): Good job everyone! I am so happy to see all of " +
+                              "your hard work starting to pay off! As you know we are heading to America " +
+                              "tommorow and I couldn't be more proud to show the American audiences what French " +
+                              "dancing is really about! Now I want you to all rest and have a good time before we " +
+                              "head off tomorrow, I've made alcoholic punch and set out food. Also, our fellow dancer Daddy " +
+                              "will be the DJ for tonight so if you want some good music make sure to kiss up to him. HAVE FUN!");
             Console.WriteLine("---------------------------------------------------------------------------");
             Console.WriteLine("Do you want to go hangout with your boyfriend David or go and hangout with Daddy the DJ? (TYPE: David or Daddy)");
             string choice1 = Console.ReadLine();
@@ -26,7 +31,7 @@ namespace climaxTextAdventure
                 Console.WriteLine("*YOU START TO WALK OVER TO DAVID BUT SEE HE IS FLIRTING WITH SOMEONE ELSE.");
 
                 Console.WriteLine("---------------------------------------------------------------------------");
-                Console.WriteLine("*Do you confront him or go to your friend Lou? (Type: David or Lou)");
+                Console.WriteLine("Do you confront him or go to your friend Lou? (Type: David or Lou)");
                 string choice11 = Console.ReadLine();
 
                 if (choice11 == "David") 
@@ -158,7 +163,11 @@ namespace climaxTextAdventure
                     if (Choice21 == "Give" || Choice21 == "give")//Give Psyche and Ivana weed
                     {
                         Console.WriteLine("YOU: Here, but I expect atleast some money in return.");
-                        Console.WriteLine("*YOU GIVE THEM SOME WEED OUT OF YOUR POCKET*");
+                        Console.WriteLine("*YOU GIVE THEM SOME WEED OUT OF YOUR POCKET TRYING NOT TO LET TITO SEE*");
+                        Console.WriteLine("IVANA: Only weed? I want something stronger! I only have a little bit left of my personal stash and I'm only using it for a special occasion!");
+                        Console.WriteLine("*IVANA AND PSYCHE START WALKING TOWARDS THE HALLWAY WITH THE ROOMS*");
+                        Console.WriteLine("*YOU DRAG TITO AND START DANCING WITH HIM ON THE DANCE FLOOR, WHEN OMAR BUMPS INTO YOU.");
+                        
                     }
                     else // Lie about the weed
                     {
