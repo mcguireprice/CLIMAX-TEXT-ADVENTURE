@@ -10,8 +10,8 @@ namespace climaxTextAdventure
             string name = Console.ReadLine();
             Console.WriteLine("---------------------------------------------------------------------------");
             Console.WriteLine("---------------------------------------------------------------------------");
-            Console.WriteLine("SETTING- An old school that is now used by the dance crew. The gym is where they perform and have " +
-                              "the party but the old classrooms have been turned into individual dorm rooms.");
+            Console.WriteLine("SETTING- It is a freezing winter night. You are in n old school that is now used by the dance crew you are in. The gym is where you perform and have " +
+                              "the party and the old classrooms have been turned into individual dorm rooms.");
             Console.WriteLine("*DANCE MUSIC PLAYS IN THE BACKGROUND*");
             Console.WriteLine("*YOU WALK OUT ON THE DANCE FLOOR WITH THE REST OF THE DANCE CREW*");
             Console.WriteLine("*YOU PERFORM THE CHOREOGRAPHED DANCE*");
@@ -55,6 +55,110 @@ namespace climaxTextAdventure
                         Console.WriteLine("---------------------------------------------------------------------------");
                         Console.WriteLine("Do you take the cup or decline? (Type Take or Decline)");
                         string choice14 = Console.ReadLine();
+
+                        if (choice14.ToLower() == "take") // drink the punch
+                        {
+                            Console.WriteLine("*YOU TAKE THE DRINK AND DOWN IN*");
+                            Console.WriteLine("DAVID: That's my girl!");
+                            Console.WriteLine("*DAVID TAKES YOU OUT TO DANCE*");
+                            Console.WriteLine("*AS YOU AND DAVID DANCE IVANA BUMPS INTO YOU*");
+                            Console.WriteLine("*SHE LOOKS SPACED OUT AND IS WOBBLING, SHE GRABS YOUR FACE AND CARESSES IT*");
+                            Console.WriteLine("IVANA: You feel so nice.");
+                            Console.WriteLine("*SHE STUMBLES AWAY TOWARDS THE PUNCH*");
+                            Console.WriteLine("DAVID: Someone probably needs to stop her, she is too out of it.");
+
+                            Console.WriteLine("---------------------------------------------------------------------------");
+                            Console.WriteLine("Do you go check to see if she is ok or keep dancing? (Type: Check or Dance)");
+                            string choice = Console.ReadLine();
+
+                            if (choice.ToLower() == "check") //Check on Ivana
+                            {
+
+                            }
+                            else // Keep Dancing
+                            {
+
+                            }
+                        }
+
+                        else //Dont drink the punch
+                        {
+                            Console.WriteLine("YOU: No thank you. I'm not thirsty right now.");
+                            Console.WriteLine("DAVID: Wow, we have a goody goody here. Watch out or she'll steal all of the fun!");
+                            Console.WriteLine("YOU: I might get some later, just not right now.");
+                            Console.WriteLine("DAVID: I am going to see if Taylor wants some punch.");
+                            Console.WriteLine("*DAVID POURS A CUP OF PUNCH AND LEAVES*");
+
+                            Console.WriteLine("---------------------------------------------------------------------------");
+                            Console.WriteLine("Do you head to bed or go and dance with Tito, Emmanuelle's son? (Type: Bed or Dance)");
+                            string choice = Console.ReadLine();
+
+                            if (choice.ToLower() == "bed")
+                            {
+                                Console.WriteLine("*YOU LEAVE THE PARTY, HEAD TO BED, AND GO TO SLEEP*");
+                                Console.WriteLine("*YOU THEN WAKE UP TO YOUR FELLOW DANCERS PULLING YOU OUT OF BED WITH RAGE*");
+                                Console.WriteLine("DAVID: SHE DIDN'T DRINK ANY OF IT!");
+                                Console.WriteLine("DADDY: SHE MUST HAVE DONE IT");
+                                Console.WriteLine("LEA: SHE DRUGGED US!");
+                                Console.WriteLine("*THEY PULL YOU OUT OF THE BED AND START BEATING YOU UP*");
+                                Console.WriteLine("*YOU DIE FROM HEAD TRAUMA AND LACK OF MEDICAL HELP*");
+                            }
+                            else
+                            {
+                                Console.WriteLine("*YOU LOOK FOR TITO IN THE CROWD*"); 
+                                Console.WriteLine("*YOU SEE HE IS STANDING NEXT TO HIS MOTHER ACROSS THE ROOM*");
+                                Console.WriteLine("*YOU START TO HEAD OVER WHEN YOU HEAR A THUMP BEHIND YOU*");
+                                Console.WriteLine("*YOU SEE RILEY, A FELLOW CREW MEMBER, ON THE GROUND FREAKING OUT*");
+
+                                Console.WriteLine("---------------------------------------------------------------------------");
+                                Console.WriteLine("Do you help Riley or go tell Emmanuelle? (Type: Help or Emmanuelle)");
+                                string choice = Console.ReadLine();
+
+                                if (choice.ToLower () == "help")
+                                {
+                                    Console.WriteLine("*YOU RUSH OVER TO RILEY, HE IS CONVULSING*");
+                                    Console.WriteLine("*YOU TRY TO HOLD HIM STILL BUT HE IS TOO STRONG*");
+                                    Console.WriteLine("YOU: SOMEONE HELP!");
+                                    Console.WriteLine("*OMAR RUSHES TO HELP TRY AND HOLD HIM DOWN*");
+                                    Console.WriteLine("*EVERYONE ELSE JUST STANDS AND STARES*");
+                                    Console.WriteLine("IVANA: He looks like he is on something.");
+                                    Console.WriteLine("DADDY: He doesn't do drugs.);
+                                    Console.WriteLine("LEA: I feel weird.");
+                                    Console.WriteLine("IVANA: I feel high.");
+                                    Console.WriteLine("EMMANUELLE: Me too!");
+                                    Console.WriteLine("SILA: Someone must have spiked us something in the punch.");
+                                    Console.WriteLine("DADDY: Who hasn't had anything to drink?");
+                                    Console.WriteLine("DAVID: " + name + " hasn't!");
+                                    Console.WriteLine("---------------------------------------------------------------------------");
+                                    Console.WriteLine("THE NEXT DAY");
+                                    Console.WriteLine("---------------------------------------------------------------------------");
+                                    Console.WriteLine("*Refering to a body covered by two giant speakers*" );
+                                    Console.WriteLine("Policewoman: We found her here, must've pulled them down while high and got crushed.");
+                                    Console.WriteLine("YOU DIED");
+
+                                }
+                                else
+                                {
+                                    Console.WriteLine("*YOU RUN TOWARDS EMMANUELLE WHILE EVERYONE FLOCKS AROUND RILEY*");
+                                    Console.WriteLine("YOU: Emmanuelle! Something is happening to Riley!");
+                                    Console.WriteLine("*SHE LOOKS FATIGUED*");
+                                    Console.WriteLine("EMMANUELLE: What?");
+                                    Console.WriteLine("*YOU HEAR ACROSS THE ROOM*");
+                                    Console.WriteLine("DAVID: ITS HER!");
+                                    Console.WriteLine("*EVERYONE RUSHES TO YOU*");
+                                    Console.WriteLine("LEA: WHAT DID YOU GIVE US!");
+                                    Console.WriteLine("*THERE IS A CACOPHONY OF SOUNDS*");
+                                    Console.WriteLine("SILA: SHE DID THIS TO US!");
+                                    Console.WriteLine("*SILA DRAGS YOU OFF BY THE HAIR AS YOU KICK AND SCREAM*");
+                                    Console.WriteLine("*PEOPLE YELL AT YOU KICKING AND SLAPPING YOU*");
+                                    Console.WriteLine("*SILA DRAGS YOU TO THE DOUBLE DOORS THAT LEAD TO OUTSIDE AND THROWS YOU OUT INTO THE FREEZING COLD*");
+                                    Console.WriteLine("*THEY CLOSE AND LOCK THE DOOR KEEPING YOU FROM ENTERING THE SCHOOL*");
+                                    Console.WriteLine("*YOU DIE FROM FROSTBITE*");
+                                }
+
+                            }
+
+                        }
                     }
                     else//Go talk to Emmanuelle
                     {
